@@ -1,4 +1,4 @@
-// Unit Tests for go-world.go functions
+// Unit Tests for greeter package
 
 package greeter_test
 
