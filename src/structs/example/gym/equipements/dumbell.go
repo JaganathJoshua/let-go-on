@@ -8,11 +8,11 @@ type Dumbell struct {
 }
 
 // Interface to define list of exercises
-type Exercise interface {
-	BicepCurl(reps int)
-}
+// type Exercise interface {
+// 	BicepCurl(reps int)
+// }
 
 // Function for BicepCurl exercise
 func (d *Dumbell) BicepCurl(reps int) {
-	fmt.Printf("Excercise Completed - %s :: %fkg :: %dreps\n", "BicepCurl", d.Weight, reps)
+	fmt.Printf("Excercise Completed - %s :: %s :: %fkg :: %dreps\n", "Dumbell", "BicepCurl", d.Weight, reps)
 }
